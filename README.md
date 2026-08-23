@@ -39,6 +39,11 @@ python run.py \
   --rerank-batch-size 16
 ```
 
+3. Для удобства анализа предсказаний модели, запустите:
+```
+python preds_parser.py --predictions ./out/predictions.csv --data ./data --output ./analysis.xlsx
+```
+
 ## Описание подхода
 
 Используется гибридный подход: BM25 + bge-m3
