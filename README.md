@@ -88,5 +88,3 @@ python preds_parser.py --predictions ./out/predictions.csv --data ./data --outpu
         2. материал товара
 
         3. функциональное назначение товара
-
-2. Использовать при предобработке данных лемматизацию через `pymorphy`.
